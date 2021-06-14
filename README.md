@@ -28,9 +28,7 @@ So I can manage only my own bookmarks
 I want to sign in to access my bookmarks
 ```
 
-## Set up SQL
-
-## Install PostgreSQL:
+## Set up and install SQL:
 
 ### 1. Use Homebrew to install the package
 ```
@@ -54,6 +52,7 @@ postgres=#
 ```
 
 ### 4. Create a database using SQL
+
 ```
 postgres=# CREATE DATABASE "your_user_name_here";
 ```
@@ -91,7 +90,8 @@ Let's have a look at the existing databases:
 $ \l
 ```
 
-2. Creating a database for Bookmark Manager
+### 2. Creating a database for Bookmark Manager
+
 Let's create a new database, and call it bookmark_manager:
 ```
 admin=# CREATE DATABASE bookmark_manager;
@@ -109,13 +109,15 @@ bookmark_manager=# CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60)
 ```
 Now inspect the list of tables again, using \dt. You should see one with the name bookmarks.
 
-5. Documenting the database setup
+### 3. Documenting the database setup
+
 It's a good idea to keep a record of how the database has been setup, both for your future reference and so that anyone contributing to your project knows how to setup the database.
 
 First lets create a directory for the database setup called db, and a sub-directory within it, migrations.
-
-- db/
-  - migrations/
+```
+ db/
+  migrations/
+```
 Now let's create a file called 01_create_bookmarks_table.sql in the migrations directory, to record the SQL queries we ran to create the bookmarks table:
 ```
 # in migrations/01_create_bookmarks_table.sql

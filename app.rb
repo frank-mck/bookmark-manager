@@ -8,6 +8,8 @@ class BookmarkManager < Sinatra::Base
   end
 
   get '/' do
+    #p ENV
+    puts 'HELLO PAL'
     erb :index
   end
 

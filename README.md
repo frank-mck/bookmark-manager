@@ -9,7 +9,11 @@ I want to be shown a list of bookmarks
 
 As a user
 So I can keep the bookmarks I want
-I want to update my bookmarks by adding and deleting bookmarks
+I want to update my bookmarks by adding bookmarks
+
+As a user
+So I can keep the bookmarks I want
+I want to update my bookmarks by deleting bookmarks
 
 As a user
 So I can add information to bookmarks

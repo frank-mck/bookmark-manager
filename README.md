@@ -44,8 +44,6 @@ After Homebrew has downloaded PostgreSQL it will show you some installation inst
 
 ### 2. Allow Homebrew to start and stop the Postgres service
 
-PostgreSQL is a database management service. It's handy to keep PostgreSQL running 'in the background'. This command will start PostgreSQL in the background and restart it when you login:
-
 ```
 brew services start postgresql
 ```
@@ -65,72 +63,26 @@ postgres=#
 postgres=# CREATE DATABASE "your_user_name_here";
 ```
 
-### 5. Listing all database tables
+### 5. Create a table in psql
+
+```
+CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));
+```
+Now inspect the list of tables again, using `\dt`. You should see one with the name bookmarks.
+
+
+### 6. Listing all database tables
 You can use one of psql's special non-SQL commands to list databases:
 
 ```
 postgres=# \l
 ```
 
-### 6. Quitting psql
+### 7. Quitting psql
 
 ```
 postgres=# \q
 ```
-
-1. Connecting to `psql`
-Assuming you have psql installed and working, connect to your pool of databases like so:
-
-```
-$> psql
-```
-
-Which should give you a command prompt similar to this one:
-
-```
-psql (9.3.5)
-Type "help" for help.
-
-admin=#
-```
-
-`psql` has two 'groups' of commands:
-
-- Commands beginning with a `\` are psql-specific commands (e.g. connecting to      databases using \c).
-
-- Everything else is part of SQL (e.g. SELECT * FROM ...), so can be used with any SQL-based Relational Database.
-
-Let's have a look at the existing databases:
-
-```
-$ \l
-```
-
-### 2. Creating a database for Bookmark Manager
-
-Let's create a new database, and call it bookmark_manager:
-
-```
-admin=# CREATE DATABASE bookmark_manager
-```
-
-And inspect the existing list of tables:
-
-```
-admin=# \dt
-```
-
-We should get something along the lines of `No relations found..` That makes sense: we haven't built anything in this database yet.
-
----
-
-We're going to make a bookmarks table that will store bookmarks from our application. We can use SQL commands from psql:
-
-```
-bookmark_manager=# CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));
-```
-
-Now inspect the list of tables again, using \dt. You should see one with the name bookmarks.
 
 ### 3. Documenting the database setup
 

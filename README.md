@@ -57,7 +57,7 @@ psql postgres
 postgres=#
 ```
 
-### 4. Create a database using SQL
+### 4. Create a database using SQL
 
 ```
 postgres=# CREATE DATABASE "your_user_name_here";
@@ -84,7 +84,7 @@ postgres=# \l
 postgres=# \q
 ```
 
-### 3. Documenting the database setup
+### 8. Documenting the database setup
 
 It's a good idea to keep a record of how the database has been setup, both for your future reference and so that anyone contributing to your project knows how to setup the database.
 

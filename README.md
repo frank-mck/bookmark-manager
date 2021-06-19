@@ -48,7 +48,7 @@ I want to sign in to access my bookmarks
 
 ## Domain model
 
-[Bookmark Manager domain model](https://raw.githubusercontent.com/makersacademy/course/master/bookmark_manager/images/bookmark_manager_1.png?token=ASO6TKRBILPQ7T2C3RSLM2DA24QQC)
+<img alt ='domain model' src ='https://raw.githubusercontent.com/makersacademy/course/master/bookmark_manager/images/bookmark_manager_1.png?token=ASO6TKRBILPQ7T2C3RSLM2DA24QQC' />
 
 ## Set up and install SQL:
 

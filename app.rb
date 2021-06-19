@@ -2,6 +2,7 @@ require 'sinatra/base'
 require 'sinatra/reloader'
 require './lib/bookmark'
 require 'pg'
+require './lib/database_connection_setup.rb'
 
 class BookmarkManager < Sinatra::Base
   configure :development do

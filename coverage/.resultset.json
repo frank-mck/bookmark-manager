@@ -85,6 +85,39 @@
           null
         ]
       },
+      "/Users/frankmckenna/Desktop/gitdir/Projects/bookmark-manager/spec/database_connection_spec.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/frankmckenna/Desktop/gitdir/Projects/bookmark-manager/spec/features/creating_bookmarks_spec.rb": {
         "lines": [
           1,
@@ -164,6 +197,6 @@
         ]
       }
     },
-    "timestamp": 1624035357
+    "timestamp": 1624104669
   }
 }

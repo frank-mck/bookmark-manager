@@ -2,6 +2,12 @@
 
 Makers week 4 pair programming challenge. Here i have built a Sinatra application that can read and write from and to a database. It's structured in an MVC(Model, Views, Controller) style, and has test and development environments.
 
+## Screens
+
+<img alt ='bookmark first page' src ="https://raw.githubusercontent.com/frank-mck/bookmark-manager/main/img/Screenshot%202021-06-19%20at%2013.21.44.png" width="400px" style="display: block;" />
+<img alt ='bookmark first page' src ="https://raw.githubusercontent.com/frank-mck/bookmark-manager/main/img/Screenshot%202021-06-19%20at%2013.22.07.png" width="400px" style="display: block;" />
+<img alt ='bookmark first page' src ="https://raw.githubusercontent.com/frank-mck/bookmark-manager/main/img/Screenshot%202021-06-19%20at%2013.22.22.png" width="400px" style="display: block;" />
+
 ## User stories
 ```
 As a user

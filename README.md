@@ -1,6 +1,13 @@
-# bookmark-manager
+# Bookmark-manager
 
 Makers week 4 pair programming challenge. Here i have built a Sinatra application that can read and write from and to a database. It's structured in an MVC(Model, Views, Controller) style, and has test and development environments.
+
+## Technical Skills 
+
+- Object relational mapping
+- PSQL
+- REST
+- Domain modelling
 
 ## Screens
 
@@ -54,3 +61,14 @@ To set up your database, follow given instructions:
 - Create the database using the psql command `CREATE DATABASE bookmark_manager_test;`
 - Connect to the database using the pqsl command `\c bookmark_manager_test;`
 - Run the query we have saved in the file `01_create_bookmarks_table.sql`
+
+## How to use
+
+- `git clone https://github.com/frank-mck/bookmark-manager.git`
+- `cd bookmark-manager`
+- `bundle install`
+Open `http://localhost:9292/` in browser, then run `rack up`.
+
+For testing 
+- `gem install rspec`
+- `rspec`

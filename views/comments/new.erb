@@ -1,0 +1,25 @@
+<form action="/bookmarks/<%= @bookmark_id %>/comments" method="POST">
+  <input name="comment" type="text" />
+  <input value="Submit" type="submit" />
+</form>
+
+
+<style>
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ddd;
+}
+form {
+  padding: 10px;
+}
+
+input {
+  padding: 8px;
+  width: 170px;
+  border: none;
+  border-radius: 5px;
+}
+</style>

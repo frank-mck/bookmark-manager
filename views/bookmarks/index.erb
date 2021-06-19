@@ -29,21 +29,26 @@ h1 {
   display: flex;
   height: 100%;
   box-shadow: 2px 5px 15px #222;
-
   padding: 20px;
   background-color: #ddd;
   border-radius: 5px;
   flex-direction: column;
+  
+  align-items: enter;
   margin: 2rem;
 }
 .item {
   display: flex;
+  align-items: center;
   justify-content: center;
+  width: 100%;
 }
-
+.item a {
+  width: 20%;
+}
 .item:hover {
   background-color: #888;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 body {
   padding: 2rem;
@@ -53,7 +58,7 @@ body {
 }
 
 .add {
-  padding: 20px;
+  padding: 16px;
   width: 12rem;
   color: #ddd;
   border-radius: 50px;
@@ -64,12 +69,12 @@ body {
 }
 form {
   margin: 8px;
-  padding: 10px;
+  padding: 5px;
 }
 
 a {
   padding: 10px;
-  margin: 8px;
+  margin: 4px;
   text-decoration: none;
   font-size: 1.5rem;
   color: black;

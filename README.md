@@ -71,7 +71,7 @@ To set up your database, follow given instructions:
 - `git clone https://github.com/frank-mck/bookmark-manager.git`
 - `cd bookmark-manager`
 - `bundle install`
-Open `http://localhost:9292/` in browser, then run `rack up`.
+- Open `http://localhost:9292/` in browser, then run `rack up`.
 
 For testing 
 - `gem install rspec`

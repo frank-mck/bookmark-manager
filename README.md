@@ -46,6 +46,10 @@ So I can manage only my own bookmarks
 I want to sign in to access my bookmarks
 ```
 
+## Domain model
+
+![Bookmark Manager domain model](../images/bookmark_manager_1.png)
+
 ## Set up and install SQL:
 
 To set up your database, follow given instructions:

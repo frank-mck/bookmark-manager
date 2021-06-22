@@ -18,7 +18,7 @@
       <input class ='edits' type ="submit" value ="Edit" />
       </form>
       <form action="/bookmarks/<%= bookmark.id %>/comments/new" method="get">
-        <input type="submit" value="Add Comment" />
+        <input class ='comment' type="submit" value="Add Comment" />
       </form>
       <ul>
   <% bookmark.comments.each do |comment| %>
@@ -42,7 +42,7 @@ h1 {
 .bookmark {
   display: flex;
   height: 70%;
-  box-shadow: 2px 5px 15px #222;
+  box-shadow: 2px 5px 15px #444;
   padding: 35px;
   background-color: #ddd;
   border-radius: 5px;
@@ -99,6 +99,10 @@ input {
   width: 100px;
   border: none;
   border-radius: 5px;
+}
+
+.comment:hover {
+  background-color: lightyellow;
 }
 
 .edits:hover {
